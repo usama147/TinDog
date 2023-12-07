@@ -1,2 +1,2 @@
 # TinDog
-Website creates using Bootstrap Components
+Website created using Bootstrap Components
