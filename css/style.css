@@ -1,0 +1,102 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.btn-primary{
+  transition: all ease-in-out 0.3s !important;
+ background-color: white !important;
+ color: black !important;
+ border: none !important;
+}
+
+.btn-primary:hover{
+  transition: all ease-in-out 0.3;
+  background-color: lightgray  !important;
+}
+
+.btn-outline-secondary:hover{
+  transition: all ease-in-out 0.3s !important;
+  color: black !important;
+  background-color: white !important;
+ }
+
+.btn-outline-secondary{
+  transition: all ease-in-out 0.3s !important;
+  color: white !important;
+  border: 1px solid white !important;
+}
+
+.btn-outline-secondary:hover{
+ transition: all ease-in-out 0.3s !important;
+ color: black !important;
+ background-color: white !important;
+}
+
+.w-100{
+  color: black !important;
+  border: 1px solid black !important;
+  transition: all ease-in-out 0.3s !important;
+}
+
+.w-100:hover{
+  color: white !important;
+  background-color: black !important;
+  transition: all ease-in-out 0.3s !important;
+}
+
+.get-started{
+  color: white !important;
+  background-color: black !important;
+  transition: all ease-in-out 0.3s !important;
+}
+
+.get-started:hover{
+  color: white !important;
+  background-color: #424649 !important;
+  transition: all ease-in-out 0.3s !important;
+}
+
+.contactUS{
+  color: white !important;
+  background-color: black !important;
+  transition: all ease-in-out 0.3s !important;
+}
+
+.contactUS:hover{
+  color: white !important;
+  background-color: #424649 !important;
+  transition: all ease-in-out 0.3s !important;
+}
+
+.mastiff{
+  background-color: black !important;
+}
+
+.mastiff > h4{
+  color:  white !important;
+}
